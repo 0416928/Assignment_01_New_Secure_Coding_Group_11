@@ -18,7 +18,7 @@ db_config = {
 
 def get_user_input():
     while True:
-        user_input = input('Enter your name: ')
+        user_input = input('Enter your name:  ')
     # Here I am going to validate the input before returning it.
         if re.match(r'^[\w\s-]+$', user_input):
             return user_input
